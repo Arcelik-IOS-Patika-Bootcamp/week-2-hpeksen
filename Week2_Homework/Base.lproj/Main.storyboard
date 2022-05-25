@@ -62,6 +62,10 @@
                             <constraint firstItem="nQU-VM-Kq2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="l3g-kY-PGF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="txtName" destination="nQU-VM-Kq2" id="kf6-te-gKo"/>
+                        <outlet property="txtSurname" destination="dmm-Xp-XLt" id="Veo-gN-CFL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
